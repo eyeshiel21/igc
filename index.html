@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="javascript.js"></script>
+	<title> indice de grasa corporal</title>
+	<style type="text/css" src>
+	
+		#span{
+			background: #ffffff;
+			text-align: center;
+			width: 30%;
+			margin-left: 40%;
+			margin-top:10%; 
+
+
+		}
+	</style>
+</head>
+<body background="gym.jpg">
+<div id="span">
+<div id="cen">
+<h1>promedio de grasa corporal </h1>
+<form action="prueba12.php" method="post">
+	Ingrese su nombre:
+	<input type="text" name="nombre">
+	<br><br>
+	<br>
+	Sexo:
+	<input type="radio" name="sexo" value="femenino" checked="checked" onclick="mostrar()">femenino
+	<input type="radio" name="sexo" value="masculino" onclick="ocultar()">masculino</br>
+	<br>
+	edad:
+	<input type="text" name="edad">
+	</br>
+	<br>
+	peso (kg):
+	<input type="text" name="peso">
+	</br>
+
+	<h1> medidas requeridas</h1>
+
+	ingrese las medidas de su altura:
+
+	<input type="text" name="altura">
+	<br><br>
+	ingrese las medidas de su cuello:
+	<input type="text" name="cuello">
+	<br><br>
+	ingrese las medidas de su cintura
+	<input type="text" name="cintura">
+	<br><br>
+	<div id="cadera" style="display:block;">
+	ingrese las medidas de su cadera
+	<input type="text" name="cadera">
+	</div>
+	<br><br>
+	<input type="submit" value="aceptar">
+
+	
+</div>
+	
+</div>
+	
+</form>
+</body>
+</html>
